@@ -1,0 +1,26 @@
+{
+  "name": "library-backend",
+  "version": "1.0.0",
+  "description": "part 8 exercises for FSO",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "test"
+  },
+  "author": "Mickey",
+  "license": "MIT",
+  "dependencies": {
+    "@graphql-tools/schema": "^8.3.1",
+    "apollo-server-core": "^3.5.0",
+    "apollo-server-express": "^3.5.0",
+    "express": "^4.17.1",
+    "graphql": "^15.7.2",
+    "graphql-subscriptions": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.14",
+    "mongoose-unique-validator": "^3.0.0",
+    "nodemon": "^2.0.15",
+    "subscriptions-transport-ws": "^0.11.0",
+    "uuid": "^8.3.2"
+  }
+}
