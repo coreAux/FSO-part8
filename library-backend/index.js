@@ -21,7 +21,7 @@ const Author = require("./models/author")
 const Book = require("./models/book")
 
 const JWT_SECRET = "SUPER_SECRET_KEY"
-const MONGODB_URI = "mongodb+srv://fullstack:fullstackopen2020@cluster0.kbbvk.mongodb.net/library-app?retryWrites=true"
+const MONGODB_URI = ""
 
 const pubsub = new PubSub()
 
